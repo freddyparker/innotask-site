@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoTask - Boostez votre productivité</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #f0bd18;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        header nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header .cta-button {
+            background: white;
+            color: #4CAF50;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #f4f4f4;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 2rem;
+        }
+
+        .features {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+        }
+
+        .features h2 {
+            margin-bottom: 1rem;
+        }
+
+        .features .feature {
+            margin: 1rem 0;
+        }
+
+        .testimonials {
+            background: #f4f4f4;
+            padding: 2rem;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .testimonials .testimonial {
+            max-width: 600px;
+            margin: 1rem auto;
+            text-align: center;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 2rem;
+            background: #e1ba08;
+            color: white;
+        }
+
+        .cta-section form {
+            margin-top: 1rem;
+        }
+
+        .cta-section input[type="email"] {
+            padding: 0.5rem;
+            width: 60%;
+            max-width: 300px;
+            margin-right: 1rem;
+        }
+
+        .cta-section button {
+            padding: 0.5rem 1rem;
+            background: white;
+            color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer .social-icons {
+            margin-top: 1rem;
+        }
+
+        footer .social-icons a {
+            margin: 0 0.5rem;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .cta-section input[type="email"] {
+                width: 80%;
+                margin: 0.5rem 0;
+            }
+
+            .cta-section button {
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TechNova</h1>
+            <nav>
+                <a href="#">Accueil</a>
+                <a href="#features">Fonctionnalités</a>
+                <a href="#pricing">Prix</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#cta" class="cta-button">Essai gratuit</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Boostez votre productivité avec InnoTask</h1>
+        <p>Organisez vos tâches, collaborez efficacement et atteignez vos objectifs plus rapidement.</p>
+        <img src="c:\Users\HP\Desktop\WhatsApp Image 2024-11-23 à 22.47.37_eefb66b6.jpg" alt="Aperçu d'InnoTask">
+    </section>
+
+    <section class="features" id="features">
+        <h2>Fonctionnalités clés</h2>
+        <div class="feature">✅ Gestion des tâches simplifiée</div>
+        <div class="feature">✅ Suivi en temps réel des progrès</div>
+        <div class="feature">✅ Collaboration d'équipe facile</div>
+        <div class="feature">✅ Rappels automatisés</div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Ce que disent nos utilisateurs</h2>
+        <div class="testimonial">
+            <p>InnoTask a transformé la façon dont nous travaillons en équipe. Une application incontournable </p>
+            <p>- Freddy Parker </p>
+        </div>
+        <div class="testimonial">
+            <p>Je recommande InnoTask à toutes les petites entreprises qui souhaitent augmenter leur productivité.</p>
+            <p>- Elon Muste</p>
+        </div>
+    </section>
+
+    <section class="cta-section" id="cta">
+        <h2>Essayez InnoTask gratuitement pendant 14 jours</h2>
+        <form>
+            <input type="email" placeholder="Entrez votre e-mail" required>
+            <button type="submit">Commencer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechNova. Tous droits réservés.</p>
+        <p><a href="#">À propos</a> | <a href="#">Confidentialité</a> | <a href="#">Conditions d'utilisation</a></p>
+        <div class="credits">
+            <p>Site créé par <strong>Freddy Parker </strong>, élève en première année à l'Institut IFRI.</p>
+            <p>Pour toute question, contactez-moi au : <strong>+229 44466240</strong></p>
+        </div>
+    
+        <div class="social-icons">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagramme</a>
+        </div>
+    </footer>
+</body>
+</html>
+```
